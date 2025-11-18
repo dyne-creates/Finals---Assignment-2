@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+
+}
+
+header {
+    font-size: 16pt;
+    padding: 20px;
+}
+.title {
+    margin-bottom: 5px;
+}
+.nickname{
+    padding: 10px;
+
+
+}
+.prompt-message {
+    color: #444;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#us-map {
+    width: 90%;
+    max-width: 900px;
+}
+
+header {
+    background-image: url('../Images/baguio-city.jpg');
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding: 70px 20px;
+    color: white;
+}
+
+header h1 {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 24pt;
+}
+
+/* styling the navigation bar */
+nav {
+    margin: 5px 0;
+    background-color: #66b2b2;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14pt;
+    letter-spacing: 0.5px;
+}
+
+nav a { /* improving nav styles for easier navigation */
+    color: black;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+nav a:hover { /* adding hover effects to distiguish it from the normal design*/
+    text-decoration: underline;
+    color: black;
+    background-color: #1cbebe;
+    border-radius: 20px;
+}
+
+nav a:active {
+    opacity: 0.6;
+}
+
+/* styling for the main content */
+main {
+    padding: 20px;
+    margin: 5px 0;
+    background-color: #008080;
+}
+
+main section {
+    background-color: #ffff;
+    border-radius: 10px;
+    border: 1px solid #cfdddd;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* Headings in Sections */
+main section h2 {
+    margin-bottom: 10px;
+}
+main  #home p, #food p, #contact p{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 40px;
+}
+main #home{
+    text-align: justify;
+}
+
+/* Attractions Section */
+main #attractions ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main #attractions li {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 700px;
+}
+
+main #attractions .attraction-title {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main #attractions img { /* formatting the images, also using '%' for responsiveness */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main #attractions .attraction-info {
+    text-align: justify;
+}
+
+/* Contact Section */
+main #contact p a {
+    text-decoration: underline;
+    font-style: italic;
+    color: blue; /* chaning the color, for the user to know that it is a link*/
+}
+
+main #contact p a:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    padding: 30px;
+    background-color: #004c4c;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 10pt;
+    letter-spacing: 0.5px;
+}
+
